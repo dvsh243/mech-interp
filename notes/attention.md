@@ -14,3 +14,5 @@ If the model could access future tokens:
 During training: It would learn to rely on words that haven’t been generated yet, making it useless for actual text generation.
 During inference: It wouldn’t work at all, because the next token does not exist until it's generated.
 
+## induction heads
+- how to find induction heads in a attention layer only transformer
